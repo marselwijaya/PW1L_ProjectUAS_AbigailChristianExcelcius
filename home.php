@@ -87,6 +87,7 @@
             <ul class="nav justify-content-end">
               <li class="nav-item">
                 <a class="menu"><input type="text" onkeyup="showHint(this.value)" placeholder="Search"></a>
+                <span id="txtHint"></span>
               </li>
             </ul></b>
           </td>
