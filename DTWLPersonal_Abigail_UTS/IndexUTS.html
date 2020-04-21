@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Portfolio UTS">
+        <meta name="keywords" content="HTML,CSS">
+        <meta name="author" content="Abigail">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio | Home</title>
+        <link rel="stylesheet" type"text/css" href="css/style.css" />
+        <link rel="stylesheet" type"text/css" href="css/animate.css" />
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+        <link rel="apple-touch-icon" sizes="57x57" href="icon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="icon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="icon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="icon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="icon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="icon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="icon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="icon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="icon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="icon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+        <link rel="manifest" href="icon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body class="main">
+      <div id="container" class="container">
+      <img src="image/MaskSmall.png" id="customPointer" width="50" style="position:absolute;" />
+      <script type="text/javascript">
+
+      var cont = document.getElementById('container');
+      cont.onmousemove = applyCustomPointer;
+
+      var customPointer = document.getElementById('customPointer');
+
+      function applyCustomPointer (event) {
+      customPointer.style.left = event.clientX - (customPointer.offsetWidth / 2) + 'px';
+      customPointer.style.top = event.clientY - (customPointer.offsetHeight / 2) + 'px';
+      }
+      </script>
+
+      <p class="title"><a href="IndexUTS.html">Portfolio</a></p>
+      <section id="menu">
+          <table>
+              <tr>
+                  <td class="menu"><p style="text-align:left"><a href="About.html">ABOUT</a></p></td>
+                  <td class="menu"><p style="text-align:center"><a href="IndexUTS.html">HOME</a></p></td>
+                  <td class="menu"><p style="text-align:right"><a href="Edu.html">EDUCATION</a></p></td>
+              </tr>
+              <tr>
+                  <td class="menu"><p style="text-align:left"><a href="PerPro.html">PERSONAL<br>PROJECT</a></p></td>
+                  <td class="menu"><p style="text-align:center"><a href="Awards.html">AWARDS</a></p></td>
+                  <td class="menu"><p style="text-align:right"><a href="Contact.html">CONTACT</a></p></td>
+              </tr>
+          </table>
+      </section>
+    </div>
+    </body>
+</html>
