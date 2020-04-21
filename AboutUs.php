@@ -90,8 +90,6 @@
       </table>
     </div>
     <br>
-    <br>
-    <br>
 
       <div data-aos="fade-up" style="transition:2s" id="AboutCS">
         <center><a href="#AboutCS" class="linkpart"><H1 style="font-family:fonthead">About ACE Cafe</H1></a><center>
