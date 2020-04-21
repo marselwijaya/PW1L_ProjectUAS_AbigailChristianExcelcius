@@ -74,6 +74,13 @@
           <td class="menuoption"><b>
             <ul class="nav justify-content-end">
               <li class="nav-item">
+                <a class="menu" href="Logout.php">Logout</a>
+              </li>
+            </ul></b>
+          </td>
+          <td class="menuoption"><b>
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
                 <a class="menu"><input type="text" onkeyup="showHint(this.value)" placeholder="Search"></a>
                 <p><span id="txtHint"></span></p>
               </li>
