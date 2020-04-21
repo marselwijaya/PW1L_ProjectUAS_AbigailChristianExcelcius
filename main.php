@@ -86,13 +86,6 @@
           <td class="menuoption"><b>
             <ul class="nav justify-content-end">
               <li class="nav-item">
-                <a class="menu" href="ContactUs.html">Contact&nbsp;Us</a>
-              </li>
-            </ul></b>
-          </td>
-          <td class="menuoption"><b>
-            <ul class="nav justify-content-end">
-              <li class="nav-item">
                 <a class="menu"><input type="text" onkeyup="showHint(this.value)" placeholder="Search"></a>
               </li>
             </ul></b>
