@@ -104,8 +104,8 @@
                 or our signature drinks, or even paired by some light bites and snacks,
                 to enjoy their time, or accompany them in doing their work and assignments.
                 With the support of our wonderful facilities and state-of-the-art systems in the cafe,
-                we also empower the implementation of technology and Computer Science (CS)
-                to support this cafe as a whole.
+                we also empower the implementation of technology and computer science
+                to support this cafe as a whole and provide the amazing coffee experience for you.
               </p>
             </div>
             <div data-aos="fade-left" style="transition:2s" class="col col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
