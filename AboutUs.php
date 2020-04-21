@@ -146,6 +146,24 @@
             </div>
             <div class="row">
               <div data-aos="fade-right" style="transition:2s; align : center" class="col col-lg-4 col-md-4 col-sm-12 col-12">
+                <img src="images/marselgradientback.png" width=80%>
+              </div>
+              <div data-aos="fade-left" style="transition:2s; margin: auto; background-color : rgba(0,0,0,0.3)" class="col col-lg-8 col-md-8 col-sm-12 col-12">
+                <p>
+                  A sophomore, currently studying and learning in the field of web development,
+                  quite skillful in videography, video editing, and graphic design. Apart from that,
+                  I also love to drink coffee. This inspired me to set up this cafe with my friend.
+                </p>
+                <br>
+                <p>
+                  Want to know me even more? Click <a class="linkportfolio" href="DTWLPersonal_ChristianMarselWijaya_Meeting7UTSLabPortfolio/DTWLPersonal_ChristianMarselWijaya_Meeting7UTSLabPortfolio.html" target="_blank">here</a> to check out my portfolio website
+                  <br>
+                  <a class="linkportfolio" href="DTWLPersonal_ChristianMarselWijaya_Meeting7UTSLabPortfolio/DTWLPersonal_ChristianMarselWijaya_Meeting7UTSLabPortfolio.html" target="_blank">Marsel's Profile</a>
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div data-aos="fade-right" style="transition:2s; align : center" class="col col-lg-4 col-md-4 col-sm-12 col-12">
                 <img src="images/excelgradientback.png" width=80%>
               </div>
               <div data-aos="fade-left" style="transition:2s; margin: auto; background-color : rgba(0,0,0,0.3)" class="col col-lg-8 col-md-8 col-sm-12 col-12">
@@ -161,24 +179,6 @@
                   Want to know me even more? Click <a class="linkportfolio" href="Portofolio_Excelcius/Portofolio_Excelcius.html" target="_blank">here</a> to check out my portfolio website
                   <br>
                   <a class="linkportfolio" href="Portofolio_Excelcius/Portofolio_Excelcius.html" target="_blank">Excelcius's Profile</a>
-                </p>
-              </div>
-            </div>
-            <div class="row">
-              <div data-aos="fade-right" style="transition:2s; align : center" class="col col-lg-4 col-md-4 col-sm-12 col-12">
-                <img src="images/marselgradientback.png" width=80%>
-              </div>
-              <div data-aos="fade-left" style="transition:2s; margin: auto; background-color : rgba(0,0,0,0.3)" class="col col-lg-8 col-md-8 col-sm-12 col-12">
-                <p>
-                  A sophomore, currently studying and learning in the field of web development,
-                  quite skillful in videography, video editing, and graphic design. Apart from that,
-                  I also love to drink coffee. This inspired me to set up this cafe with my friend.
-                </p>
-                <br>
-                <p>
-                  Want to know me even more? Click <a class="linkportfolio" href="DTWLPersonal_ChristianMarselWijaya_Meeting7UTSLabPortfolio/DTWLPersonal_ChristianMarselWijaya_Meeting7UTSLabPortfolio.html" target="_blank">here</a> to check out my portfolio website
-                  <br>
-                  <a class="linkportfolio" href="DTWLPersonal_ChristianMarselWijaya_Meeting7UTSLabPortfolio/DTWLPersonal_ChristianMarselWijaya_Meeting7UTSLabPortfolio.html" target="_blank">Marsel's Profile</a>
                 </p>
               </div>
             </div>

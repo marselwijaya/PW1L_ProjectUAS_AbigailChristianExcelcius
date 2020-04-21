@@ -131,7 +131,7 @@
             <p>
               <h1 style="font-family : fontyouthpower; font-size : 300%; color : black">Amazing</h1>
               <p>
-                Indulge yourself by any of our specialty coffee or non-coffee drinks
+                We provide an amazing place for you to chill and relax with great ambience to make you comfortable
               </p>
             </p>
           </div>
@@ -141,7 +141,7 @@
             <p>
               <h1 style="font-family : fontyouthpower; font-size : 300%; color : black">Coffee</h1>
               <p>
-                Grab some light bites or nibbles to accompany your coffee
+                Indulge yourself by any of our specialty coffee or non-coffee drinks and grab some light bites or nibbles with it
               </p>
             </p>
           </div>
@@ -151,7 +151,7 @@
             <p>
               <h1 style="font-family : fontyouthpower; font-size : 300%; color : black">Experience</h1>
               <p>
-                Take your time to chill and relax in our cosy yet wonderful cafe
+                Take your time to enjoy the wonderful experience in our cafe, and snap some pictures for your social media activity
               </p>
             </p>
           </div>
