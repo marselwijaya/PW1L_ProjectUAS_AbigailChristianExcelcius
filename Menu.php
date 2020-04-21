@@ -5,6 +5,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <script>
+    function showHint(str) {
+      if (str.length == 0) {
+        document.getElementById("txtHint").innerHTML = "";
+        return;
+      } else {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("txtHint").innerHTML = this.responseText;
+          }
+        };
+        xmlhttp.open("GET", "suggestionList.php?q=" + str, true);
+        xmlhttp.send();
+      }
+    }
+    </script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
@@ -57,6 +74,13 @@
             <ul class="nav justify-content-end">
               <li class="nav-item">
                 <a class="menu" href="ContactUs.html">Contact&nbsp;Us</a>
+              </li>
+            </ul></b>
+          </td>
+          <td class="menuoption"><b>
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="menu"><input type="text" onkeyup="showHint(this.value)" placeholder="Search"></a>
               </li>
             </ul></b>
           </td>
