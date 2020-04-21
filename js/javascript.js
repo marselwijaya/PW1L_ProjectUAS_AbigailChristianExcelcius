@@ -1,7 +1,7 @@
 function getReservation(){
   var retVal = confirm("Submit Reservation ?");
   if(retVal == true){
-    window.location="index.html";
+    window.location="home.php";
     return true;
   }
   else{

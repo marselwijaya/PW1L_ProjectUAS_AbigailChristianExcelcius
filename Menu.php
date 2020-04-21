@@ -104,7 +104,7 @@
           </li>
         </ul>
         <div class="tab-content" id="myTabContent">
-          <div class="tab-pane fade show active" id="minuman" role="tabpanel" aria-labelledby="minuman-tab">
+          <div class="tab-pane fade show active" id="Drinks" role="tabpanel" aria-labelledby="minuman-tab">
               <div class="table-responsive">
                 <div class="S4" align="center" style="color:white">
                   <div class="kontenS4" style="width:75%">
