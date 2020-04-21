@@ -39,12 +39,12 @@
        class="tablemenu" border="0" style="width=device-width, initial-scale=100%; table-layout:fixed; color:#ffffff; background-color: rgba(0,0,0, 0.1)">
         <tr style="text-align: center">
           <td style="text-align : left">
-            <a href="main.php"><img src="images/LogoACECafe.png" width="130%"></a>
+            <a href="home.php"><img src="images/LogoACECafe.png" width="130%"></a>
           </td>
           <td class="menuoption"><b>
             <ul class="nav justify-content-end">
               <li class="nav-item">
-                <a class="menu" href="main.php">Home</a>
+                <a class="menu" href="home.php">Home</a>
             </ul></b>
           </td>
           <td class="menuoption"><b>
