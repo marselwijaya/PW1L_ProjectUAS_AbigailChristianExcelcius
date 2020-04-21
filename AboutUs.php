@@ -102,7 +102,7 @@
           <div class="container" style="padding-top : 5%">
             <div class="row">
               <div data-aos="fade-right" style="transition:2s; align : center" class="col col-lg-4 col-md-4 col-sm-12 col-12">
-                <img src="images/excelgradientback.png" width=80%>
+                <img src="images/abigailgradientbg.png" width=80%>
               </div>
               <div data-aos="fade-left" style="transition:2s; margin: auto; background-color : rgba(0,0,0,0.3)" class="col col-lg-8 col-md-8 col-sm-12 col-12">
                 <p>
