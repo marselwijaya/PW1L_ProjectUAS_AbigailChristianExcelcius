@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Christian Marsel Wijaya's Portfolio DTW Lab Mid Term Assignment</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/c0a05f026b.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body class="backAll" style="font-family:fontbody; color:#ffffff; overflow-x:hidden">
+    <section id="Home">
+    <table data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1000"
+     class="tablemenu" border="0" style="width=device-width, initial-scale=100%; table-layout:fixed; text-align:center; color:#ffffff">
+      <tr>
+        <td>
+          <img src="images/MarselWijayapng.png" style="width:100%">
+        </td>
+        <td colspan="3"><b>
+        <span><a href="#Home" class="menu">HOME</a></span> &nbsp; &nbsp; &nbsp;
+        <span><a href="#AboutMe" class="menu">ABOUT ME</a></span> &nbsp; &nbsp; &nbsp;
+        <span><a href="#EducationHistory" class="menu">EDUCATIONAL HISTORY</a></span> &nbsp; &nbsp; &nbsp;
+        <span><a href="#Organization" class="menu">ORGANIZATIONAL EXPERIENCE</a></span> &nbsp; &nbsp; &nbsp;
+        <span><a href="#Projects" class="menu">MY PROJECTS</a></span> &nbsp; &nbsp; &nbsp;
+        <span><a href="#ContactMe" class="menu">CONTACT ME</a></b></span>
+        </td>
+      </tr>
+    </table>
+
+    <div data-aos="zoom-in" style="transition:1.5s">
+    <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="images/Marsel.jpg" style="width:100%">
+      <div class="text"><b>Hello, I'm Marsel Wijaya</b></div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="images/Marsel2.jpg" style="width:100%">
+      <div class="text"><b>I do Video Editing</b></div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="images/Marsel3.jpg" style="width:100%">
+      <div class="text"><b>I also do Basic Web Design too</b></div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <section id="AboutMe">
+    <table class="tablemenu" style="width=device-width, initial-scale=100%; table-layout:fixed; text-align:center; color:#ffffff">
+      <tr>
+        <td colspan="2" data-aos="fade-up" class="backgroundtableaboutme" style="transition:1s">
+        <img src="images/AboutMe.png" style="width:25%">
+        </td>
+      </tr>
+      <tr>
+        <td><br></td>
+        <td><br></td>
+      </tr>
+      <tr>
+        <td data-aos="fade-up-right" style="transition:2s">
+          <img src="images/MarselAboutMe.png" style="width:75%">
+        </td>
+        <td data-aos="fade-up-left" style="transition:2s">
+          <center><h2>Hi, I'm Marsel Wijaya.<br>You can call me Marsel</h2></centre>
+          <p> I was born on March 2<sup>nd</sup>, 2000. <br>
+              Currently I'm a Sophomore in UPH's Information System. <br>
+              I'm single, busy with my activities either at campus or church. <br>
+              I love to do anything related to multimedia, photography,<br>
+              and especially videography. <br>
+              I do video editing using Premiere Pro and After Effects. <br>
+              I also do basic Web Design using HTML and CSS.
+          </p>
+          <blockquote>
+            <q><i>
+              Vision without Action is a daydream,<br>
+              Action without Vision is a catasthrope<br>
+              - Marsel Wijaya, 2019 </i></q>
+          </blockquote>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <center><p data-aos="fade-up" style="font-family:fontmenu; font-size:500%; transition:1.5s">My Skills</p></center>
+    <table data-aos="fade-up" class="tablemenu" style="transition:1.5s">
+      <tr>
+        <td style="padding:10px"></td>
+        <td>
+          <div style="width:100%; align:center;">
+            <p>HTML</p>
+            <div class="containerskill">
+              <div class="skills html">70%</div>
+            </div>
+
+            <p>CSS</p>
+            <div class="containerskill">
+              <div class="skills css">65%</div>
+            </div>
+
+            <p>Premiere Pro</p>
+            <div class="containerskill">
+              <div class="skills pr">85%</div>
+            </div>
+
+            <p>After Effect</p>
+            <div class="containerskill">
+              <div class="skills ae">75%</div>
+            </div>
+
+            <p>Photoshop</p>
+            <div class="containerskill">
+              <div class="skills ps">80%</div>
+            </div>
+          </div>
+        </td>
+        <td style="padding:10px"></td>
+      </tr>
+    </table>
+    <br><br><br><br><br><br><br><br>
+
+    <section id="EducationHistory">
+      <table class="tablemenu" style="width=device-width, initial-scale=100%; table-layout:fixed; text-align:center; color:#ffffff">
+        <tr>
+          <td data-aos="zoom-out-up" style="transition:1.5s" class="backgroundtableaboutme">
+          <img src="images/EducationalHistory.png" style="width:50%">
+          </td>
+        </tr>
+      </table>
+      <br>
+      <div data-aos="fade-up"
+     data-aos-duration="2000"
+     class="timeline" style="color: #3d3d3d">
+      <div data-aos="fade-right" style="transition:1.5s" class="container left">
+        <div class="content">
+          <h2>2018</h2>
+          <p><a href="https://goo.gl/maps/uDe4jdJEamy5qDRd6" class="menuedu"><acronym title="UPH">Pelita Harapan University</acronym>, Tangerang</a></p>
+        </div>
+      </div>
+      <div data-aos="fade-left" style="transition:1.5s" class="container right">
+        <div class="content">
+          <h2>2015</h2>
+          <p><a href="https://goo.gl/maps/8jW5Ji7rioxyx7CbA" class="menuedu"><acronym title="SMA Gracia">Gracia Senior High School</acronym>, Lippo Karawaci, Tangerang</a></p>
+        </div>
+      </div>
+      <div data-aos="fade-right" style="transition:1.5s" class="container left">
+        <div class="content">
+          <h2>2012</h2>
+          <p><a href="https://goo.gl/maps/8jW5Ji7rioxyx7CbA" class="menuedu"><acronym title="SMP Gracia">Gracia Junior High School</acronym>, Lippo Karawaci, Tangerang</a></p>
+        </div>
+      </div>
+      <div data-aos="fade-left" style="transition:1.5s" class="container right">
+        <div class="content">
+          <h2>2006</h2>
+          <p><a href="https://goo.gl/maps/8jW5Ji7rioxyx7CbA" class="menuedu"><acronym title="SD Gracia">Gracia Elementary School</acronym>, Lippo Karawaci, Tangerang</a></p>
+        </div>
+      </div>
+      <div data-aos="fade-right" style="transition:1.5s" class="container left">
+        <div class="content">
+          <h2>2004</h2>
+          <p><a href="https://goo.gl/maps/8jW5Ji7rioxyx7CbA" class="menuedu"><acronym title="TK Gracia">Gracia Kindergarden</acronym>, Lippo Karawaci, Tangerang</a></p>
+        </div>
+      </div>
+      <div data-aos="fade-left" style="transition:1.5s" class="container right">
+        <div class="content">
+          <h2>2003</h2>
+          <p><a href="https://goo.gl/maps/8jW5Ji7rioxyx7CbA" class="menuedu"><acronym title="KB Gracia">Gracia Playgroup</acronym>, Lippo Karawaci, Tangerang</a></p>
+        </div>
+      </div>
+    </div>
+    <br><br><br><br><br>
+
+    <section id="Organization">
+    <table class="tablemenu" style="width=device-width, initial-scale=100%; table-layout:fixed; text-align:center; color:#ffffff">
+      <tr>
+        <td data-aos="zoom-out-down" style="transition:1.5s" class="backgroundtableaboutme">
+        <img src="images/OrganizationalExperience.png" style="width:60%">
+        </td>
+      </tr>
+    </table>
+    <div class="S4" align="center">
+      <div class="kontenS4" style="width:75%">
+        <div data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        style="transition:1.5s" class="ini1">
+          <table class="tablemenu">
+            <tr>
+              <td>
+                <h2 class="animated flipInX">2019</h2>
+              </td>
+              <td>
+                 <img src="images/logohmpssi.png" align="right" style="height:7%">
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <p class="animated flipInX"><a href="https://www.instagram.com/hmpssi_uph/" class="menu"><acronym title="HMPSSI UPH">Students Association of Information System Pelita Harapan University</acronym></a> – Member of Creative Division</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <br>
+        <div data-aos="fade-left"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        style="transition:1.5s" class="ini2">
+          <table class="tablemenu">
+            <tr>
+              <td rowspan="2">
+                <img src="images/FalconProject9.png" style="height:25%">
+              </td>
+              <td>
+                <h2 class="animated flipInX" align="right">2019</h2>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="animated flipInX"><a href="http://falconproject.id/" class="menu"><acronym title="FP9">Falcon Project 9</acronym></a> – Member of Design Division</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <br>
+        <div data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        style="transition:1.5s" class="ini3">
+          <table class="tablemenu">
+            <tr>
+              <td>
+                <h2 class="animated flipInX">2016</h2>
+              </td>
+              <td rowspan="2">
+                 <img src="images/SekolahGracia.png" align="right" style="height:20%;">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="animated flipInX">Student Council of Gracia Senior High School – Head of Division I-V</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <br>
+        <div data-aos="fade-left"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        style="transition:1.5s" class="ini4">
+          <table class="tablemenu">
+            <tr>
+              <td rowspan="2">
+                <img src="images/SekolahGracia.png" align="left" style="height:20%;">
+              </td>
+              <td>
+                <h2 class="animated flipInX" align="right">2013</h2>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="animated flipInX">Student Council of Gracia Junior High School – Treasurer</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <br><br><br><br><br>
+
+    <section id="Projects">
+      <table class="tablemenu" style="width=device-width, initial-scale=100%; table-layout:fixed; text-align:center; color:#ffffff">
+        <tr>
+          <td data-aos="zoom-in-down" style="transition:1.5s" class="backgroundtableaboutme">
+          <img src="images/Projects.png" style="width:25%">
+          </td>
+        </tr>
+      </table>
+      <br><br>
+      <table class="tablemenu" style="width=device-width, initial-scale=100%; table-layout:fixed; text-align:center; color:#ffffff">
+        <tr>
+          <td>
+            <div data-aos="flip-left" style="transition:1.5s" class="containerportfolio">
+              <img src="images/EZ-Flight.png" class="image" alt="Online Ticketing Project" title="Ez-Flight Project">
+              <div class="overlay">Ez-Flight</div>
+            </div>
+          </td>
+          <td>
+            <div data-aos="flip-left" style="transition:1.5s" class="containerportfolio">
+              <img src="images/Klinik Care2U.png" class="image" alt="Hospital System Project" title="Klinik Care2U Project">
+              <div class="overlay">Klinik Care2U</div>
+            </div>
+          </td>
+          <td>
+            <div data-aos="flip-right" style="transition:1.5s" class="containerportfolio">
+              <img src="images/OSProject.png" class="image" alt="Operating System Interface Project" title="Calculator & Contact OS Project">
+              <div class="overlay">Calculator & Contact OS</div>
+            </div>
+          </td>
+          <td>
+            <div data-aos="flip-right" style="transition:1.5s" class="containerportfolio">
+              <img src="images/EdSheeranIMK.png" class="image" alt="Human and Computer Interaction Project" title="Ed Sheeran Online Ticketing Project">
+              <div class="overlay">Ed Sheeran Online Ticketing</div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td data-aos="flip-left" style="transition:1.5s">Online Flight Ticketing (EZ-Flight)<br>Algorithm Project (2018)</td>
+          <td data-aos="flip-left" style="transition:1.5s">Hospital System (Klinik Care2U)<br>Database System Project (2019)</td>
+          <td data-aos="flip-right" style="transition:1.5s">Operating System Interface (OS)<br>Data Structure Project (2019)</td>
+          <td data-aos="flip-right" style="transition:1.5s; font-size:90%">Online Ticketing System Interface (OS)<br>Human & Computer Interaction Project (2019)</td>
+        </tr>
+      </table>
+    <br><br><br><br><br>
+
+    <section id="ContactMe">
+      <table class="tablemenu" style="width=device-width, initial-scale=100%; table-layout:fixed; text-align:center; color:#ffffff">
+        <tr>
+          <td data-aos="fade-down" style="transition:2s" class="backgroundtableaboutme">
+          <img src="images/ContactMe.png" style="width:40%">
+          </td>
+        </tr>
+      </table>
+      <br><br>
+      <table data-aos="fade-up" style="width=60%; transition:2s; margin: 0% 5% 0% 5%; padding: 0% 5% 0% 5%; text-align:center; color:#ffffff">
+        <tr>
+          <td>
+            <center><div class="containercontact"><a href="tel:081212199902"><img src="images/telephonebutton.png" class="imagecontact" alt="Telephone Icon" title="Phone Number"></a></div></center>
+          </td>
+          <td>
+            <center><div class="containercontact"><a href="https://wa.me/6281212199902" target="_blank"><img src="images/whatsapp.png" class="imagecontact" alt="Whatsapp Icon" title="Whatsapp Number"></a></div></center>
+          </td>
+          <td style="padding: 0% 3% 0% 3%">
+            <center><div class="containercontact"><a href="mailto:cmarselwijaya@ymail.com"><img src="images/envelope.png" class="imagecontact" alt="E-mail Icon" title="E-mail Address"></a></div></center>
+          </td>
+          <td style="padding: 0% 3% 0% 3%">
+            <center><div class="containercontact"><a href="https://goo.gl/maps/ZxZqfDeafAjrHqzC7" target="_blank"><img src="images/placeholder.png" class="imagecontact" alt="Location Icon" title="Address Link"></a></div></center>
+          </td>
+          <td>
+            <center><div class="containercontact"><a href="https://www.instagram.com/marselwijaya_/" target="_blank"><img src="images/instagram.png" class="imagecontact" alt="Instagram Icon" title="Instagram Account"></a></div></center>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="tel:081212199902" class="menu">+62 812 1219 9902</td>
+          <td><a href="https://wa.me/6281212199902" class="menu">+62 812 1219 9902</td>
+          <td><a href="mailto:cmarselwijaya@ymail.com" class="menu">cmarselwijaya@ymail.com</td>
+          <td><a href="https://goo.gl/maps/ZxZqfDeafAjrHqzC7" class="menu" target="_blank">
+            Taman Ubud Permata Timur,<br>Lippo Karawaci, Tangerang, Banten</td>
+          <td><a href="https://www.instagram.com/marselwijaya_/" class="menu" target="_blank">@marselwijaya_</td>
+        </tr>
+      </table>
+      <br><br><br><br><br>
+    <button style="background-image: url('images/BacktoTopButton.png'); background-repeat: no-repeat; background-size: 65px" onclick="topFunction()" id="myBtn" title="Back to the top of the page"></button>
+
+    <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 175px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 175 || document.documentElement.scrollTop > 175) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    }
+
+      AOS.init();
+    </script>
+  </body>
+</html>

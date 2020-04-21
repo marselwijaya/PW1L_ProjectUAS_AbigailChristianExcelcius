@@ -13,7 +13,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="css/lightbox.css" rel="stylesheet">
 
-    <title> CS Cafe </title>
+    <title> ACE Cafe </title>
   </head>
   <body class="backAll" style="font-family:fontbody; overflow-x:hidden; font-size: 1.1em; color: white">
     <div class="content1">
@@ -29,32 +29,39 @@
        class="tablemenu" border="0" style="width=device-width, initial-scale=100%; table-layout:fixed; color:#ffffff; background-color: rgba(0,0,0, 0.1)">
         <tr style="text-align: center">
           <td style="text-align : left">
-            <a href="index.html"><img src="images/LogoCSCafe.png" width="130%"></a>
+            <a href="main.php"><img src="images/LogoACECafe.png" width="130%"></a>
           </td>
           <td class="menuoption"><b>
             <ul class="nav justify-content-end">
               <li class="nav-item">
-                <a class="menu" href="index.html">Home</a>
+                <a class="menu" href="main.php">Home</a>
             </ul></b>
           </td>
           <td class="menuoption"><b>
             <ul class="nav justify-content-end">
               <li class="nav-item">
-                <a class="menu" href="AboutUs.html">About&nbsp;Us</a>
+                <a class="menu" href="AboutUs.php">About&nbsp;Us</a>
               </li>
             </ul></b>
           </td>
           <td class="menuoption"><b>
             <ul class="nav justify-content-end">
               <li class="nav-item">
-                <a class="menu" href="Menu.html">Menu</a>
+                <a class="menu" href="Menu.php">Menu</a>
               </li>
             </ul></b>
           </td>
           <td class="menuoption"><b>
             <ul class="nav justify-content-end">
               <li class="nav-item">
-                <a class="menu" href="Location.html">Location</a>
+                <a class="menu" href="Location.php">Location</a>
+              </li>
+            </ul></b>
+          </td>
+          <td class="menuoption"><b>
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="menu" href="ContactUs.html">Contact&nbsp;Us</a>
               </li>
             </ul></b>
           </td>
@@ -73,16 +80,16 @@
 
     <div class="container">
         <div class="row">
-          <div class="col col-lg-4 col-md-4 col-sm-1 col-1">
+          <div class="col col-lg-4 col-md-3 col-sm-1 col-1">
 
           </div>
-          <div class="content1 col col-lg-4 col-md-4 col-sm-10 col-10" data-aos="zoom-in" style="transition:5s; transition-delay : 2s">
-              <a href="#Philosophy"><img class="homeLogo" src="images/LogoCSOnly.png"></a>
+          <div class="content1 col col-lg-4 col-md-6 col-sm-10 col-10" data-aos="zoom-in" style="transition:5s; transition-delay : 2s">
+              <a href="#Philosophy"><img class="homeLogo" src="images/LogoACEOnly.png"></a>
               <br>
               <br>
               <br>
           </div>
-          <div class="col col-lg-4 col-md-4 col-sm-1 col-1">
+          <div class="col col-lg-4 col-md-3 col-sm-1 col-1">
 
           </div>
         </div>
@@ -101,30 +108,30 @@
       <div class="container" style="text-align:center; padding-top : 0%">
         <div class="row">
           <div class="col col-lg-4 col-md-4 col-sm-4 col-4" data-aos="fade-right" style="transition:2s; padding-top : 0%; padding-bottom : 12%">
-            <img src="images/C png.png" alt="Coffee" style="width : 20%">
+            <img src="images/A png.png" alt="Amazing" style="width : 20%">
             <br>
             <p>
-              <h1 style="font-family : fontyouthpower; font-size : 350%; color : black">Coffee</h1>
+              <h1 style="font-family : fontyouthpower; font-size : 300%; color : black">Amazing</h1>
               <p>
                 Indulge yourself by any of our specialty coffee or non-coffee drinks
               </p>
             </p>
           </div>
           <div class="col col-lg-4 col-md-4 col-sm-4 col-4" data-aos="zoom-in" style="transition:2s; padding-top : 0%; padding-bottom : 12%">
-            <img src="images/S png.png" alt="Snacks" style="width : 20%">
+            <img src="images/C png.png" alt="Coffee" style="width : 20%">
             <br>
             <p>
-              <h1 style="font-family : fontyouthpower; font-size : 350%; color : black">Snacks</h1>
+              <h1 style="font-family : fontyouthpower; font-size : 300%; color : black">Coffee</h1>
               <p>
                 Grab some light bites or nibbles to accompany your coffee
               </p>
             </p>
           </div>
           <div class="col col-lg-4 col-md-4 col-sm-4 col-4" data-aos="fade-left" style="transition:2s; padding-top : 0%; padding-bottom : 12%">
-            <img src="images/S png.png" alt="Santuy" style="width : 20%">
+            <img src="images/E png.png" alt="Experience" style="width : 20%">
             <br>
             <p>
-              <h1 style="font-family : fontyouthpower; font-size : 350%; color : black">Santuy</h1>
+              <h1 style="font-family : fontyouthpower; font-size : 300%; color : black">Experience</h1>
               <p>
                 Take your time to chill and relax in our cosy yet wonderful cafe
               </p>
@@ -143,15 +150,15 @@
       <div class="container" style="text-align:center">
         <div class="row">
           <div class="containerportfolio col col-lg-4 col-md-4 col-sm-12 col-12" data-aos="flip-left" style="transition:1.5s">
-            <a href="images/promo1.png" data-lightbox="image-1" data-title="50% off All Hot Coffee Every Monday from 4PM onwards"><img src="images/promo1.png" class="image" alt="Monday 50% off Hot Coffee" title="Monday 50% off Hot Coffee"></a>
+            <a href="images/promo1ace.png" data-lightbox="image-1" data-title="50% off All Hot Coffee Every Monday from 4PM onwards"><img src="images/promo1ace.png" class="image" alt="Monday 50% off Hot Coffee" title="Monday 50% off Hot Coffee"></a>
             <div class="overlay">50% off Hot Coffee</div>
           </div>
           <div class="containerportfolio col col-lg-4 col-md-4 col-sm-12 col-12" data-aos="flip-left" style="transition:1.5s">
-            <a href="images/promo2.png" data-lightbox="image-1" data-title="Student Discount 10% off your transaction Every Weekday"><img src="images/promo2.png" class="image" alt="Student Discount 10% off Every Weekday" title="Student Discount 10% off Every Weekday"></a>
+            <a href="images/promo2ace.png" data-lightbox="image-2" data-title="Student Discount 10% off your transaction Every Weekday"><img src="images/promo2ace.png" class="image" alt="Student Discount 10% off Every Weekday" title="Student Discount 10% off Every Weekday"></a>
             <div class="overlay">Student Discount</div>
           </div>
           <div class="containerportfolio col col-lg-4 col-md-4 col-sm-12 col-12" data-aos="flip-left" style="transition:1.5s">
-            <a href="images/promo3.png" data-lightbox="image-1" data-title="One free Ice Tea for every snacks purchase on Weekend from 4-6 PM"><img src="images/promo3.png" class="image" alt="Weekend Happy Hour" title="Weekend Happy Hour"></a>
+            <a href="images/promo3ace.png" data-lightbox="image-3" data-title="One free Ice Tea for every snacks purchase on Weekend from 4-6 PM"><img src="images/promo3ace.png" class="image" alt="Weekend Happy Hour" title="Weekend Happy Hour"></a>
             <div class="overlay">Weekend Happy Hour</div>
           </div>
         </div>
@@ -159,7 +166,7 @@
     </div>
 
     <div class="copyright" style="font-family: fonthead; text-align : center">
-      <p>Copyright ©2019 - CS Cafe<p>
+      <p>Copyright ©2020 - ACE Cafe<p>
     </div>
 
     <script src="javascript/lightbox.js"></script>
