@@ -131,17 +131,16 @@
               </div>
               <div data-aos="fade-left" style="transition:2s; margin: auto; background-color : rgba(0,0,0,0.3)" class="col col-lg-8 col-md-8 col-sm-12 col-12">
                 <p>
-                  I love culinary, and i travel quite often with my friends just to try and enjoy
-                  a wide variety of culinary in the city. But then i realized that what makes me
-                  to love culinary is because i always enjoyed it with my best friend. So my hope
-                  in this CS cafe, not only as a place just to eat or drink, but also to
-                  strengthen the relationships with the people we care and love.
+                  I love going to the cafe with my friends. Wether we are doing a project
+                  together or just to hangout and relax.I realized that a cafe needs to have an
+                  atmosphere that makes people feel comfortable and they want to go back again.
+                  We decided to make a coffee shop that represents what we enjoy the most.
                 </p>
                 <br>
                 <p>
-                  Want to know me even more? Click <a class="linkportfolio" href="Portofolio_Excelcius/Portofolio_Excelcius.html" target="_blank">here</a> to check out my portfolio website
+                  Want to know me even more? Click <a class="linkportfolio" href="DTWLPersonal_Abigail_UTS/About.html" target="_blank">here</a> to check out my portfolio website
                   <br>
-                  <a class="linkportfolio" href="Portofolio_Excelcius/Portofolio_Excelcius.html" target="_blank">Excelcius's Profile</a>
+                  <a class="linkportfolio" href="DTWLPersonal_Abigail_UTS/About.html" target="_blank">Abigail's Profile</a>
                 </p>
               </div>
             </div>

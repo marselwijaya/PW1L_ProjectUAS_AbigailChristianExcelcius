@@ -1,0 +1,191 @@
+@font-face {
+    font-family: col;
+    src: url(../font/CollectionFree.otf);
+}
+@font-face {
+    font-family: vog;
+    src: url(../font/Vogue.ttf);
+}
+@font-face {
+    font-family: ame;
+    src: url(../font/Amethyst.ttf);
+}
+@font-face {
+    font-family: iml;
+    src: url(../font/impactlabel.ttf);
+}
+@font-face {
+    font-family: lib;
+    src: url(../font/LittleBird.ttf);
+}
+@font-face {
+    font-family: sal;
+    src: url(../font/Salvalyn Demo.ttf);
+}
+@font-face {
+    font-family: zni;
+    src: url(../font/Znikomit.otf);
+}
+@font-face {
+    font-family: alc;
+    src: url(../font/aliens-cows.ttf);
+}
+
+.title {
+    padding-left:5%;
+    text-align: left;
+    font-size: 700%;
+    width: 100%;
+    font-family:col;
+}
+.title:hover {
+    color: #AAAAAA;
+}
+.title2 {
+    text-align: center;
+    font-size: 400%;
+    width: 100%;
+    font-family:col;
+}
+.menu {
+    padding-left:7%;
+    font-family: 'Playfair Display', serif;
+    font-size: 500%;
+}
+.menu:hover {
+    color: #AAAAAA;
+}
+.menu2 {
+    padding-left:1%;
+    padding-right:1%;
+    font-family: 'Playfair Display', serif;
+    font-size: 100%;
+}
+header {
+    position: fixed;
+    top: 1%;
+    width: 100%;
+}
+footer {
+    position: fixed;
+    bottom: 1%;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+table {
+    table-layout: fixed;
+    text-align: center;
+}
+.main {
+    color: white;
+    width: 100%;
+    background-color: #393939;
+    text-decoration: none;
+}
+.arrow {
+    position: relative;
+    text-align: center;
+}
+.arrowText {
+    position: absolute;
+    bottom: 1%;
+    left: 2%;
+}
+.container{
+    cursor: auto;
+}
+.about {
+    font-size: 500%;
+}
+.timeline {
+    margin-left:15%;
+    margin-right:15%;
+}
+.timeline2 {
+    width: 100%;
+    background-color: #696969;
+    font-size: 200%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.timeline2:hover {
+    background-color: #888888;
+}
+.contact {
+    text-decoration: none;
+    margin-left: 15%;
+    font-family: zni;
+    font-size: 200%;
+    text-align: left;
+    width: 100%;
+}
+.url {cursor: url(image/MaskSmall.cur), auto;}
+form {
+    margin-left: 20%;
+    font-size: 120%;
+    font-family: zni;
+    font-size: 200%;
+    text-align: left;
+    width: 100%;
+}
+.skills {
+    margin-left: 7%;
+    font-family: zni;
+    font-size: 200%;
+}
+div.animation1 {
+  width: 100px;
+  height: 50px;
+  background: #63707e;
+  color: #f2f6f5;
+  padding-left: 15%;
+  position: relative;
+  animation: skillHtml 5s infinite;
+}
+@keyframes skillHtml {
+  from {left: 0px;}
+  to {left: 75%;}
+}
+div.animation2 {
+  width: 100px;
+  height: 50px;
+  background: #93b5b3;
+  color: #f2f6f5;
+  padding-left: 15%;
+  position: relative;
+  animation: skillCss 5s infinite;
+}
+@keyframes skillCss {
+  from {left: 0px;}
+  to {left: 60%;}
+}
+
+div.animation3 {
+  width: 100px;
+  height: 50px;
+  background: #c8dad3;
+  color: #f2f6f5;
+  padding-left: 15%;
+  position: relative;
+  animation: skillJs 5s infinite;
+}
+@keyframes skillJs {
+  from {left: 0px;}
+  to {left: 2%;}
+}
+div.animation4 {
+  width: 100px;
+  height: 50px;
+  background: #808080;
+  color: #f2f6f5;
+  padding-left: 15%;
+  position: relative;
+  animation: skillJava 5s infinite;
+}
+@keyframes skillJava {
+  from {left: 0px;}
+  to {left: 50%;}
+}
