@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!doctype html>
 <html lang="en">
   <head>
@@ -7,6 +8,23 @@
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <script type="text/javascript" src="javascript/javascript.js">
 
+    </script>
+    <script>
+    function showHint(str) {
+      if (str.length == 0) {
+        document.getElementById("txtHint").innerHTML = "";
+        return;
+      } else {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("txtHint").innerHTML = this.responseText;
+          }
+        };
+        xmlhttp.open("GET", "suggestionList.php?q=" + str, true);
+        xmlhttp.send();
+      }
+    }
     </script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -68,7 +86,7 @@
           <td class="menuoption"><b>
             <ul class="nav justify-content-end">
               <li class="nav-item">
-                <a class="menu" href="ContactUs.php">Contact&nbsp;Us</a>
+                <a class="menu"><input type="text" onkeyup="showHint(this.value)" placeholder="Search"></a>
               </li>
             </ul></b>
           </td>
@@ -113,7 +131,7 @@
             <p>
               <h1 style="font-family : fontyouthpower; font-size : 300%; color : black">Amazing</h1>
               <p>
-                We have create
+                Indulge yourself by any of our specialty coffee or non-coffee drinks
               </p>
             </p>
           </div>
@@ -123,7 +141,7 @@
             <p>
               <h1 style="font-family : fontyouthpower; font-size : 300%; color : black">Coffee</h1>
               <p>
-                Indulge yourself by any of our specialty coffee or non-coffee drinks and grab some light bites or nibbles with it
+                Grab some light bites or nibbles to accompany your coffee
               </p>
             </p>
           </div>
@@ -204,3 +222,5 @@
   AOS.init();
 </script>
 </html>
+=======
+>>>>>>> 85c5de4264033f099257db8ef0c96bfc0581c930
