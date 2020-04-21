@@ -1,6 +1,8 @@
 <?php
-$connection= mysqli_connect('localhost','root','','database_toko')
- ?>
+include("config.php");
+session_start();
+$message='';
+?>
 <!DOCTYPE html>
 
 <html>
@@ -23,13 +25,17 @@ $connection= mysqli_connect('localhost','root','','database_toko')
 if(isset($_POST['Login'])){
   $username=$_POST['id'];
   $password=$_POST['pass'];
-
-  $query=mysqli_query($connection, "SELECT * FROM user WHERE username='$username' AND password='$password'");
-  if(mysqli_num_rows($query)>0){
-    header("location: home.php");
+  if(empty($username) || empty($password)){
+    $message = 'Username and Password must be filled!';
   }
-  else{
-    echo "username or password invalid";
+  $sql = "SELECT username,password FROM datapelanggan WHERE
+          username='$username' AND password='$password'";
+  $query=mysqli_query($con,$sql);
+  $rows=mysqli_num_rows($query);
+  if($rows==1){
+    $message = "Login Succeed!";
+    $_SESSION['login_user'] = $username;
+    header("location: home.php");
   }
 }
 ?>

@@ -100,19 +100,19 @@
         <div class="container">
           <div class="row">
             <div data-aos="fade-right" style="transition:2s; margin: auto; background-color : rgba(0,0,0,0.3)" class="col col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
-              <p>CS Cafe has been established since 2018. The name "CS Cafe" itself
-                has the meaning of "Coffee" and "Santuy" (Chill/Relax), where nowadays
+              <p>ACE Cafe has been established since 2018. The name "ACE Cafe" itself
+                has the meaning of "Amazing", "Coffee" and "Experience", where nowadays
                 many jobs and responsibilities that a person has, especially for
                 millennials and project groups, made them to seek for their daily dose of caffeine intake or
                 even snacks to accompany them in doing their work and assignments.
               </p>
               <p>
-                CS Cafe provide a place for customers to be able to enjoy their cup of coffee
+                ACE Cafe provide a place for customers to be able to enjoy their cup of coffee
                 or our signature drinks, or even paired by some light bites and snacks,
                 to enjoy their time, or accompany them in doing their work and assignments.
                 With the support of our wonderful facilities and state-of-the-art systems in the cafe,
-                we also empower the implementation of technology and Computer Science (CS)
-                to support this cafe as a whole.
+                we also empower the implementation of technology and computer science
+                to support this cafe as a whole and provide the amazing coffee experience for you.
               </p>
             </div>
             <div data-aos="fade-left" style="transition:2s" class="col col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
