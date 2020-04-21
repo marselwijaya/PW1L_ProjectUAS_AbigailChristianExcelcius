@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!doctype html>
 <html lang="en">
   <head>
@@ -223,5 +222,3 @@
   AOS.init();
 </script>
 </html>
-=======
->>>>>>> 85c5de4264033f099257db8ef0c96bfc0581c930
