@@ -1,0 +1,162 @@
+@font-face {
+  font-family: Lemon;
+  src: url('../Font/Lemon/Lemon Brush - Personal Use.otf');
+}
+@font-face {
+  font-family: Campione;
+  src: url('../Font/Campiane/Campione PERSONAL USE ONLY.ttf');
+}
+@font-face {
+  font-family: Vanilla;
+  src: url('../Font/Vanilla/Vanilla Twilight.otf');
+}
+html{
+  scroll-behavior: smooth;
+}
+.box {
+  margin-top: 10px;
+  font-size: 5em;
+  padding: 10px;
+  color: black;
+  font-weight: 800;
+}
+
+#box1::after {
+  justify-content: center;
+  content: "Hi, I'm Excelcius";
+  display:flex;
+  transform:rotateX(180deg);
+  background: linear-gradient(transparent, black);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-top:30px;
+}
+
+.top {
+  position: relative;
+  height: 300px;
+  opacity: 1;
+  text-align: center;
+  font-size: 80px;
+  color: black;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+a {
+  margin left: 30px;
+  transition: all;
+}
+.tulisan1,.tulisan2,.tulisan3,.tulisan4,.tulisan5,.tulisan6,.tulisan7,.tulisan8,.tulisan9,.tulisan10,.tarki,.ultah,.twais {
+	font-weight: bold;
+	font-family: 'Acme', sans-serif;
+	color: white;
+	position: absolute;
+	opacity: 0;
+	transition: .5s ease;
+  margin-top:-250px;
+  background-color:black;
+  width:230;
+  padding-left: 20px;
+}
+
+}
+.foto1:hover .tulisan1 {
+  opacity:0.75
+}
+.foto2:hover .tulisan2 {
+	opacity: 0.75;
+}.foto3:hover .tulisan3 {
+	opacity: 0.75;
+}.foto4:hover .tulisan4 {
+	opacity: 0.75;
+}.foto5:hover .tulisan5 {
+	opacity: 0.75;
+}.foto6:hover .tulisan6 {
+	opacity: 0.75;
+}.foto7:hover .tulisan7 {
+	opacity: 0.75;
+}.foto8:hover .tulisan8 {
+	opacity: 0.75;
+}.foto9:hover .tulisan9 {
+	opacity: 0.75;
+}.foto10:hover .tulisan10 {
+	opacity: 0.75;
+}
+
+
+
+  .container {
+    position: relative;
+    width: 100%;
+  }
+
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    background-color: black;
+    opacity: 0.5;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+
+  .container:hover .overlay {
+    width: 100%;
+    left: 0;
+  }
+
+  .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
