@@ -102,12 +102,14 @@ $message='';
                   $message = 'Full Name, Username, E-mail, and Password must be filled!';
                 }
                 else {
-                  $check = mysqli_query($con,"SELECT username FROM datapelanggan WHERE username = '$username'");
-                  if(mysqli_fetch_array($check)){
+                  $sql = "SELECT username FROM datapelanggan WHERE username = '$username'";
+                  $check = mysqli_query($con,$sql);
+                  $rows=mysqli_num_rows($check);
+                  if($rows>0){
                     $message = 'Username already exist. <br>';
                   }
                   else {
-                    $query = "INSERT INTO datapelanggan VALUES('$fullname','$username','$email','$password')";
+                    $query = "INSERT INTO datapelanggan VALUES('$fullname','$username','$password','$email')";
                     mysqli_query($con,$query);
                     $message = 'Registration Succeed!';
                     $_SESSION['login_user'] = $username;
